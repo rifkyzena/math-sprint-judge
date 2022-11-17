@@ -15,7 +15,7 @@
         </div>
 
         <!-- Splash Page -->
-        <div class="card" id="splash-page" hidden>
+        <div class="card" id="splash-page">
             <form id="start-form">
                 <div class="selection-container">
                     <!-- 10 Questions Radio Input -->
@@ -63,8 +63,34 @@
         </div>
 
         <!-- Countdown Page -->
-        <div class="card" id="countdown-page">
+        <div class="card" id="countdown-page" hidden>
             <h1 class="countdown">3</h1>
+        </div>
+
+        <!-- Game Page -->
+        <div class="card" id="game-page" hidden>
+            <!-- Item Container -->
+            <div class="item-container"></div>
+            <!-- Right / Wrong Buttons -->
+            <div class="item-footer">
+                <button class="wrong">False</button>
+                <button class="right">Correct</button>
+            </div>
+        </div>
+
+        <!-- Score Page!!! -->
+        <div class="card" id="score-page" hidden>
+            <!-- Score Container -->
+            <div class="score-container">
+                <h1 class="title">Your Time</h1>
+                <h1 class="final-time">6.9s</h1>
+                <h1 class="base-time">Base Time: 3.3s</h1>
+                <h1 class="penalty-time">Penalty: +3.6s</h1>
+            </div>
+            <!-- PLay Again Button -->
+            <div class="score-footer">
+                <button class="play-again">Play Again?</button>
+            </div>
         </div>
 
     </div>
